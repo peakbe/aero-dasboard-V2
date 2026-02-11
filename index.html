@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Aéroports – EBLG & EBCI</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Dashboard Aéroportuaire</h1>
+    <p>EBLG (Liège) & EBCI (Charleroi)</p>
+</header>
+
+<div id="map"></div>
+
+<main>
+    <section id="info-panels">
+        <div id="weather"></div>
+        <div id="aircrafts"></div>
+        <div id="noise"></div>
+    </section>
+</main>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
