@@ -45,8 +45,7 @@ async function loadAircraft(airport, map) {
 
     // ⚠️ À remplacer par ton API aviation réelle
     const demoFlights = [
-        { callsign: airport.code + "123", lat: airport.lat + 0.05, lon: airport.lon + 0.05 },
-        { callsign: airport.code + "456", lat: airport.lat - 0.04, lon: airport.lon - 0.03 }
+        ersegQzkf2Dfal-o26B4b5uzMrXBeHK2jOpOaY7nffc
     ];
 
     container.innerHTML += `<h3>${airport.code} - Avions confirmés</h3><ul>`;
